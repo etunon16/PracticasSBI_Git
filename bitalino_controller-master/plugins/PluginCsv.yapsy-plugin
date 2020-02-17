@@ -1,0 +1,10 @@
+
+[Core]
+Name = Csv
+Module = PluginCsv
+
+[Documentation]
+Author = BJE
+Note = Based on https://github.com/OpenBCI/OpenBCI_Python/blob/master/plugins/print.py
+Version = 0.1
+Description = Print Bitalino samples
