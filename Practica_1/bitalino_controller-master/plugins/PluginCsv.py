@@ -17,7 +17,9 @@ class PluginCsv(IPluginBitalino.IPluginBitalino):
 
     # called with each set of samples received from Bitalino
     def __call__(self, samples):
+        
         np.savetxt(self.f, samples, delimiter=',')
+        
 
     def deactivate(self):
         self.f.close()
